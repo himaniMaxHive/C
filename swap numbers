@@ -1,0 +1,16 @@
+// swap numbers without using temporary variable
+#include<stdio.h>
+int main()
+{
+    int a = 5, b= 10;
+    printf("Value before swapping the numbers");
+    printf("\na = %d",a);
+    printf("\nb = %d",b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("\nValue after swapping the numbers");
+    printf("\na = %d",a);
+    printf("\nb = %d",b);
+    return 117;
+}
