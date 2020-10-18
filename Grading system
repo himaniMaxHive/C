@@ -1,0 +1,32 @@
+int main()
+{
+    int m1,m2,m3,m4,m5,total;
+    float per;
+    printf("To know your GRADE, please enter your marks of your 5 Subjects");
+    printf("\n\n");
+    printf("\nEnter your mark of 1 subject : ");
+    scanf("%d",&m1);
+    printf("\nEnter your mark of 2 subject : ");
+    scanf("%d",&m2);
+    printf("\nEnter your mark of 3 subject : ");
+    scanf("%d",&m3);
+    printf("\nEnter your mark of 4 subject : ");
+    scanf("%d",&m4);
+    printf("\nEnter your mark of 5 subject : ");
+
+    scanf("%d",&m5);
+    total = m1+m2+m3+m4+m5;
+    per=((total*100)/(50*5));
+    if(per>=85)
+        printf("\nGrade A");
+    else if(per>=70 && per<=84)
+        printf("\nGrade B");
+    else if(per>=55 && per<=69)
+        printf("\nGrade C");
+    else if(per>=40 && per<=54)
+        printf("\nGrade D");
+    else
+        printf("Grade F");
+    return 117;
+}
+
