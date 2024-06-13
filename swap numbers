@@ -2,10 +2,12 @@
 #include<stdio.h>
 int main()
 {
+    //swap number
     int a = 5, b= 10;
     printf("Value before swapping the numbers");
     printf("\na = %d",a);
     printf("\nb = %d",b);
+    //code logic
     a=a+b;
     b=a-b;
     a=a-b;
